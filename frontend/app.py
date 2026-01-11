@@ -3,7 +3,15 @@ import requests
 
 st.set_page_config(page_title="Financial Freedom System", layout="centered")
 
+
 st.title("💸 Financial Freedom System")
+st.markdown(
+    """
+    **This tool helps families understand hidden financial traps in loans & EMIs.**  
+    Built after witnessing people close to me struggle with unfair loan structures.
+    """
+)
+
 
 tabs = st.tabs(["EMI Trap Checker", "Loan Freedom Predictor"])
 
